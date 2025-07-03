@@ -1,10 +1,10 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5001/api', // Make sure this matches your backend
+  baseURL: 'https://otp-authentication-assignment.onrender.com/api', // deployed backend
   headers: {
     'Content-Type': 'application/json',
-  },
+  },
 });
 
 // Attach token from localStorage if available
