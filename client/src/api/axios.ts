@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://otp-authentication-assignment.onrender.com/api', // deployed backend
+  baseURL: 'https://otp-authentication-assignment.onrender.com/api', 
   headers: {
     'Content-Type': 'application/json',
   },
